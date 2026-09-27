@@ -1,4 +1,4 @@
-FROM ghcr.io/feldorn/free-games-claimer:2.12.4
+FROM ghcr.io/feldorn/free-games-claimer:2.12.5
 
 # Persistance : le dossier data de l'app pointe vers /data (persistant + sauvegardé par HA)
 RUN rm -rf /fgc/data && ln -s /data /fgc/data
